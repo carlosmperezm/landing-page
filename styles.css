@@ -1,11 +1,11 @@
 :root {
   --dark-background: #1f2937;
-  --title-color: #f9faf8;
-  --secondary-text-color: #e5e7eb;
-  --logo-color: #f9faf8;
+  --title-color: #F9FAF8;
+  --secondary-text-color: #E5E7EB;
+  --logo-color: #F9fAF8;
   --button-signup-color: #3882f6;
-  --information-text: #1f2937;
-  --quote-section-background-color: #e5e7eb;
+  --quote-text-color: #1F2937;
+  --quote-section-background-color: #E5E7EB;
 }
 
 * {
@@ -102,7 +102,7 @@ h2 {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   min-height: 300px;
   padding: 2rem;
 }
@@ -128,11 +128,29 @@ h2 {
   align-items: center;
 }
 
-
 .card p {
   width: 150px;
 }
 
 /* 3rd Section */
+#third-section {
+  background: var(--quote-section-background-color);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#third-section p {
+  font-size: 36px;
+  color: var(--quote-text-color);
+  font-style: italic;
+  padding: 2rem;
+}
+
+blockquote {
+  align-self: flex-end;
+  margin-right: 2rem;
+
+}
 
 /* 4th Section */
