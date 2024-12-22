@@ -1,0 +1,92 @@
+:root {
+  --dark-background: #1f2937;
+  --title-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+  --logo-color: #f9faf8;
+  --button-signup-color: #3882f6;
+  --information-text: #1f2937;
+  --quote-section-background-color: #e5e7eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+
+/* Navbar */
+nav {
+  background: var(--dark-background);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+#logo {
+  color: var(--logo-color);
+  font-size: 24px;
+}
+
+/* 1st Section */
+#first-section {
+  display: flex;
+  background: var(--dark-background);
+  font: 18px;
+  color: var(--secondary-text-color);
+  padding: 2rem;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  color: var(--title-color);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+button {
+  background: var(--button-signup-color);
+  color: var(--secondary-text-color);
+  padding: 0.3rem;
+  width: 5rem;
+  border-radius: 10%;
+}
+
+.image-container {
+  width: 50rem;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* 2nd Section */
+
+/* 3rd Section */
+
+/* 4th Section */
