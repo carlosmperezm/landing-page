@@ -51,7 +51,7 @@ nav {
   background: var(--dark-background);
   font: 18px;
   color: var(--secondary-text-color);
-  padding: 2rem;
+  padding: 2rem 15%;
   justify-content: space-around;
   gap: 2rem;
 }
@@ -88,7 +88,6 @@ button {
 /* 2nd Section */
 #second-section {
   text-align: center;
-  /* min-height: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +106,6 @@ h2 {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  /* min-height: 300px; */
   padding: 2rem;
   margin: 1rem;
 }
@@ -150,13 +148,15 @@ h2 {
   color: var(--quote-text-color);
   font-style: italic;
   padding: 2rem;
+  width: 50%;
+  align-self: center;
 }
 
 blockquote {
   align-self: flex-end;
   margin-right: 2rem;
   font-weight: bold;
-
+  margin-right: 27%;
 }
 
 /* 4th Section */
