@@ -88,7 +88,11 @@ button {
 /* 2nd Section */
 #second-section {
   text-align: center;
-  min-height: 300px;
+  /* min-height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
 
 h2 {
@@ -103,8 +107,9 @@ h2 {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  min-height: 300px;
+  /* min-height: 300px; */
   padding: 2rem;
+  margin: 1rem;
 }
 
 .img-container {
@@ -155,6 +160,35 @@ blockquote {
 }
 
 /* 4th Section */
+#fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 200px;
+}
+
+
+.sign-up-box {
+  background: var(--button-signup-color);
+  display: flex;
+  color: var(--secondary-text-color);
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  flex-basis: 60%;
+  gap: 2rem;
+}
+
+#fourth-section .title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#fourth-section button {
+  border: 1px solid White;
+
+}
 
 
 
