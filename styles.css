@@ -11,7 +11,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid; */
 }
 
 body {
@@ -20,6 +19,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+button:hover {
+  cursor: pointer;
+}
 
 /* Navbar */
 nav {
