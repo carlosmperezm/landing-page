@@ -150,7 +150,21 @@ h2 {
 blockquote {
   align-self: flex-end;
   margin-right: 2rem;
+  font-weight: bold;
 
 }
 
 /* 4th Section */
+
+
+
+
+/* Footer */
+
+footer {
+  background: var(--dark-background);
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  padding: 2rem;
+  text-align: center;
+}
